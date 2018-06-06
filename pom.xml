@@ -67,7 +67,7 @@
 				<configuration>
 					<failOnMissingWebXml>false</failOnMissingWebXml>
 					<outputDirectory>target/wildfly-12.0.0.Final/standalone/deployments</outputDirectory>
-					<warName>ROOT</warName>
+					<warName>jsf-cdi-spring-data</warName>
 				</configuration>
 			</plugin>
 
