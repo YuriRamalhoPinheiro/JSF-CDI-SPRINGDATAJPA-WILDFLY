@@ -1,155 +1,89 @@
-2018-06-06 18:26:05,301 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 50) WFLYNAM0001: Activating Naming Subsystem
-2018-06-06 18:26:05,316 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 42) WFLYCLINF0001: Activating Infinispan subsystem.
-2018-06-06 18:26:05,316 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 58) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
-2018-06-06 18:26:05,332 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 43) WFLYRS0016: RESTEasy version 3.5.0.Final
-2018-06-06 18:26:05,332 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 60) WFLYWS0002: Activating WebServices Extension
-2018-06-06 18:26:05,347 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 41) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
-2018-06-06 18:26:05,394 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 48) WFLYJSF0007: Activated the following JSF Implementations: [main]
-2018-06-06 18:26:05,394 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 57) WFLYSEC0002: Activating Security Subsystem
-2018-06-06 18:26:05,426 INFO  [org.jboss.as.security] (MSC service thread 1-8) WFLYSEC0001: Current PicketBox version=5.0.2.Final
-2018-06-06 18:26:05,457 INFO  [org.jboss.as.connector] (MSC service thread 1-6) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.4.7.Final)
-2018-06-06 18:26:05,488 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 36) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
-2018-06-06 18:26:05,535 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0018: Started Driver service with driver-name = h2
-2018-06-06 18:26:05,582 INFO  [org.jboss.remoting] (MSC service thread 1-3) JBoss Remoting version 5.0.5.Final
-2018-06-06 18:26:05,582 INFO  [org.jboss.as.naming] (MSC service thread 1-1) WFLYNAM0003: Starting Naming Service
-2018-06-06 18:26:05,613 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-1) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
-2018-06-06 18:26:05,910 INFO  [org.jboss.as.ejb3] (MSC service thread 1-8) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
-2018-06-06 18:26:05,910 INFO  [org.jboss.as.ejb3] (MSC service thread 1-3) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
-2018-06-06 18:26:06,629 INFO  [org.jboss.as.ejb3] (MSC service thread 1-7) WFLYEJB0493: EJB subsystem suspension complete
-2018-06-06 18:26:06,786 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
-2018-06-06 18:26:06,833 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0003: Undertow 2.0.0.Final starting
-2018-06-06 18:26:06,958 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0012: Started server default-server.
-2018-06-06 18:26:06,958 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 59) WFLYUT0014: Creating file handler for path 'F:\Projetos\Git\spring tool suit\jsf-cdi-spring-data\target\wildfly-12.0.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
-2018-06-06 18:26:06,974 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0018: Host default-host starting
-2018-06-06 18:26:07,036 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
-2018-06-06 18:26:11,121 INFO  [org.jboss.as.patching] (MSC service thread 1-5) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
-2018-06-06 18:26:11,154 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-7) WFLYDM0111: Keystore F:\Projetos\Git\spring tool suit\jsf-cdi-spring-data\target\wildfly-12.0.0.Final\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
-2018-06-06 18:26:11,154 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-2) WFLYDS0013: Started FileSystemDeploymentService for directory F:\Projetos\Git\spring tool suit\jsf-cdi-spring-data\target\wildfly-12.0.0.Final\standalone\deployments
-2018-06-06 18:26:11,389 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "jsf-cdi-spring-data.war" (runtime-name: "jsf-cdi-spring-data.war")
-2018-06-06 18:26:11,748 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
-2018-06-06 18:26:14,357 INFO  [org.jboss.ws.common.management] (MSC service thread 1-8) JBWS022052: Starting JBossWS 5.2.0.Final (Apache CXF 3.2.2) 
-2018-06-06 18:26:23,408 INFO  [org.jboss.as.jpa] (MSC service thread 1-2) WFLYJPA0002: Read persistence.xml for jsf-cdi-spring-data
-2018-06-06 18:26:24,397 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 63) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'jsf-cdi-spring-data.war#jsf-cdi-spring-data'
-2018-06-06 18:26:24,448 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 63) HHH000204: Processing PersistenceUnitInfo [
+2018-06-07 10:17:13,130 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 58) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2018-06-07 10:17:13,130 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 48) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2018-06-07 10:17:13,145 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 60) WFLYWS0002: Activating WebServices Extension
+2018-06-07 10:17:13,145 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 43) WFLYRS0016: RESTEasy version 3.5.0.Final
+2018-06-07 10:17:13,145 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 57) WFLYSEC0002: Activating Security Subsystem
+2018-06-07 10:17:13,145 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 50) WFLYNAM0001: Activating Naming Subsystem
+2018-06-07 10:17:13,145 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 42) WFLYCLINF0001: Activating Infinispan subsystem.
+2018-06-07 10:17:13,176 INFO  [org.jboss.as.connector] (MSC service thread 1-3) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.4.7.Final)
+2018-06-07 10:17:13,208 INFO  [org.jboss.as.security] (MSC service thread 1-5) WFLYSEC0001: Current PicketBox version=5.0.2.Final
+2018-06-07 10:17:13,223 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 41) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2018-06-07 10:17:13,319 INFO  [org.jboss.remoting] (MSC service thread 1-2) JBoss Remoting version 5.0.5.Final
+2018-06-07 10:17:13,329 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 36) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2018-06-07 10:17:13,402 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0018: Started Driver service with driver-name = h2
+2018-06-07 10:17:13,403 INFO  [org.jboss.as.naming] (MSC service thread 1-6) WFLYNAM0003: Starting Naming Service
+2018-06-07 10:17:13,442 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-6) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2018-06-07 10:17:13,469 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0003: Undertow 2.0.0.Final starting
+2018-06-07 10:17:13,788 INFO  [org.jboss.as.ejb3] (MSC service thread 1-5) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2018-06-07 10:17:13,788 INFO  [org.jboss.as.ejb3] (MSC service thread 1-6) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2018-06-07 10:17:13,991 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 59) WFLYUT0014: Creating file handler for path 'F:\Projetos\Git\spring tool suit\jsf-cdi-spring-data\target\wildfly-12.0.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2018-06-07 10:17:14,045 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0012: Started server default-server.
+2018-06-07 10:17:14,062 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0018: Host default-host starting
+2018-06-07 10:17:14,387 INFO  [org.jboss.as.patching] (MSC service thread 1-1) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
+2018-06-07 10:17:14,407 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2018-06-07 10:17:14,423 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-4) WFLYDM0111: Keystore F:\Projetos\Git\spring tool suit\jsf-cdi-spring-data\target\wildfly-12.0.0.Final\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2018-06-07 10:17:14,446 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-8) WFLYDS0013: Started FileSystemDeploymentService for directory F:\Projetos\Git\spring tool suit\jsf-cdi-spring-data\target\wildfly-12.0.0.Final\standalone\deployments
+2018-06-07 10:17:14,462 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "ROOT.war" (runtime-name: "ROOT.war")
+2018-06-07 10:17:14,540 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0493: EJB subsystem suspension complete
+2018-06-07 10:17:15,040 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2018-06-07 10:17:15,435 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2018-06-07 10:17:15,607 INFO  [org.jboss.ws.common.management] (MSC service thread 1-2) JBWS022052: Starting JBossWS 5.2.0.Final (Apache CXF 3.2.2) 
+2018-06-07 10:17:27,409 INFO  [org.jboss.as.jpa] (MSC service thread 1-7) WFLYJPA0002: Read persistence.xml for jsf-cdi-spring-data
+2018-06-07 10:17:27,616 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 63) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'ROOT.war#jsf-cdi-spring-data'
+2018-06-07 10:17:27,648 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 63) HHH000204: Processing PersistenceUnitInfo [
 	name: jsf-cdi-spring-data
 	...]
-2018-06-06 18:26:24,510 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0003: Processing weld deployment jsf-cdi-spring-data.war
-2018-06-06 18:26:24,620 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 63) HHH000412: Hibernate Core {5.1.10.Final}
-2018-06-06 18:26:24,620 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 63) HHH000206: hibernate.properties not found
-2018-06-06 18:26:24,620 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 63) HHH000021: Bytecode provider name : javassist
-2018-06-06 18:26:24,698 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 63) HCANN000001: Hibernate Commons Annotations {5.0.2.Final}
-2018-06-06 18:26:25,149 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-1) HV000001: Hibernate Validator 6.0.7.Final
-2018-06-06 18:26:25,412 INFO  [org.springframework.data.jpa.repository.cdi.JpaRepositoryExtension] (MSC service thread 1-1) Activating CDI extension for Spring Data JPA repositories.
-2018-06-06 18:26:25,903 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
-2018-06-06 18:26:25,913 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.fabric.jdbc.FabricMySQLDriver (version 5.1)
-2018-06-06 18:26:25,915 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-8) ISPN000128: Infinispan version: Infinispan 'Bastille' 9.1.6.Final
-2018-06-06 18:26:25,946 INFO  [org.jboss.weld.Version] (MSC service thread 1-1) WELD-000900: 3.0.3 (Final)
-2018-06-06 18:26:26,008 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0018: Started Driver service with driver-name = jsf-cdi-spring-data.war_com.mysql.fabric.jdbc.FabricMySQLDriver_5_1
-2018-06-06 18:26:26,008 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0018: Started Driver service with driver-name = jsf-cdi-spring-data.war_com.mysql.jdbc.Driver_5_1
-2018-06-06 18:26:26,243 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 63) WFLYCLINF0002: Started client-mappings cache from ejb container
-2018-06-06 18:26:26,290 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 65) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'jsf-cdi-spring-data.war#jsf-cdi-spring-data'
-2018-06-06 18:26:26,540 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 65) HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-2018-06-06 18:26:26,602 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 65) Envers integration enabled? : true
-2018-06-06 18:26:27,180 INFO  [stdout] (ServerService Thread Pool -- 65) Hibernate: 
-2018-06-06 18:26:27,192 INFO  [stdout] (ServerService Thread Pool -- 65)     
-2018-06-06 18:26:27,192 INFO  [stdout] (ServerService Thread Pool -- 65)     create table Produto (
-2018-06-06 18:26:27,192 INFO  [stdout] (ServerService Thread Pool -- 65)         id bigint not null auto_increment,
-2018-06-06 18:26:27,192 INFO  [stdout] (ServerService Thread Pool -- 65)         nome varchar(255),
-2018-06-06 18:26:27,192 INFO  [stdout] (ServerService Thread Pool -- 65)         primary key (id)
-2018-06-06 18:26:27,193 INFO  [stdout] (ServerService Thread Pool -- 65)     )
-2018-06-06 18:26:27,288 INFO  [org.jboss.weld.Event] (MSC service thread 1-8) WELD-000411: Observer method [BackedAnnotatedMethod] protected org.springframework.data.repository.cdi.CdiRepositoryExtensionSupport.processAnnotatedType(@Observes ProcessAnnotatedType<X>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.
-2018-06-06 18:26:27,413 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-8) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.sun.faces.flow.FlowDiscoveryCDIHelper is deprecated from CDI 1.1!
-2018-06-06 18:26:27,663 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-8) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.jberet.creation.BatchBeanProducer is deprecated from CDI 1.1!
-2018-06-06 18:26:27,679 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-8) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.arjuna.ats.jta.cdi.transactional.TransactionalInterceptorMandatory is deprecated from CDI 1.1!
-2018-06-06 18:26:27,679 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-8) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.arjuna.ats.jta.cdi.transactional.TransactionalInterceptorNever is deprecated from CDI 1.1!
-2018-06-06 18:26:27,679 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-8) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.arjuna.ats.jta.cdi.transactional.TransactionalInterceptorNotSupported is deprecated from CDI 1.1!
-2018-06-06 18:26:27,679 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-8) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.arjuna.ats.jta.cdi.transactional.TransactionalInterceptorRequired is deprecated from CDI 1.1!
-2018-06-06 18:26:27,695 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-8) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.arjuna.ats.jta.cdi.transactional.TransactionalInterceptorRequiresNew is deprecated from CDI 1.1!
-2018-06-06 18:26:27,695 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-8) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.arjuna.ats.jta.cdi.transactional.TransactionalInterceptorSupports is deprecated from CDI 1.1!
-2018-06-06 18:26:27,898 WARN  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 3) WELD-000167: Class br.com.yuriramalhopinheiro.Repository is annotated with @Dependent but it does not declare an appropriate constructor therefore is not registered as a bean!
-2018-06-06 18:26:28,132 INFO  [org.springframework.data.jpa.repository.cdi.JpaRepositoryExtension] (MSC service thread 1-8) Registering bean for 'br.com.yuriramalhopinheiro.Repository' with qualifiers [@javax.enterprise.inject.Default(), @javax.enterprise.inject.Any()].
-2018-06-06 18:26:28,335 INFO  [org.hibernate.jpa.internal.util.LogHelper] (MSC service thread 1-8) HHH000204: Processing PersistenceUnitInfo [
+2018-06-07 10:17:27,704 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment ROOT.war
+2018-06-07 10:17:27,798 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 63) HHH000412: Hibernate Core {5.1.10.Final}
+2018-06-07 10:17:27,802 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 63) HHH000206: hibernate.properties not found
+2018-06-07 10:17:27,805 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 63) HHH000021: Bytecode provider name : javassist
+2018-06-07 10:17:27,869 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-8) HV000001: Hibernate Validator 6.0.7.Final
+2018-06-07 10:17:27,905 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 63) HCANN000001: Hibernate Commons Annotations {5.0.2.Final}
+2018-06-07 10:17:28,215 INFO  [org.springframework.data.jpa.repository.cdi.JpaRepositoryExtension] (MSC service thread 1-8) Activating CDI extension for Spring Data JPA repositories.
+2018-06-07 10:17:28,952 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2018-06-07 10:17:28,954 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.fabric.jdbc.FabricMySQLDriver (version 5.1)
+2018-06-07 10:17:29,002 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-4) ISPN000128: Infinispan version: Infinispan 'Bastille' 9.1.6.Final
+2018-06-07 10:17:29,036 INFO  [org.jboss.weld.Version] (MSC service thread 1-2) WELD-000900: 3.0.3 (Final)
+2018-06-07 10:17:29,246 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Started Driver service with driver-name = ROOT.war_com.mysql.fabric.jdbc.FabricMySQLDriver_5_1
+2018-06-07 10:17:29,247 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Started Driver service with driver-name = ROOT.war_com.mysql.jdbc.Driver_5_1
+2018-06-07 10:17:29,496 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 63) WFLYCLINF0002: Started client-mappings cache from ejb container
+2018-06-07 10:17:29,627 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 63) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'ROOT.war#jsf-cdi-spring-data'
+2018-06-07 10:17:29,938 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 63) HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-06-07 10:17:30,020 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 63) Envers integration enabled? : true
+2018-06-07 10:17:30,588 INFO  [stdout] (ServerService Thread Pool -- 63) Hibernate: 
+2018-06-07 10:17:30,588 INFO  [stdout] (ServerService Thread Pool -- 63)     
+2018-06-07 10:17:30,589 INFO  [stdout] (ServerService Thread Pool -- 63)     create table Produto (
+2018-06-07 10:17:30,589 INFO  [stdout] (ServerService Thread Pool -- 63)         id bigint not null auto_increment,
+2018-06-07 10:17:30,589 INFO  [stdout] (ServerService Thread Pool -- 63)         nome varchar(255),
+2018-06-07 10:17:30,589 INFO  [stdout] (ServerService Thread Pool -- 63)         primary key (id)
+2018-06-07 10:17:30,589 INFO  [stdout] (ServerService Thread Pool -- 63)     )
+2018-06-07 10:17:30,786 INFO  [org.jboss.weld.Event] (MSC service thread 1-5) WELD-000411: Observer method [BackedAnnotatedMethod] protected org.springframework.data.repository.cdi.CdiRepositoryExtensionSupport.processAnnotatedType(@Observes ProcessAnnotatedType<X>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.
+2018-06-07 10:17:31,133 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-5) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.jberet.creation.BatchBeanProducer is deprecated from CDI 1.1!
+2018-06-07 10:17:31,200 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-5) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.arjuna.ats.jta.cdi.transactional.TransactionalInterceptorMandatory is deprecated from CDI 1.1!
+2018-06-07 10:17:31,207 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-5) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.arjuna.ats.jta.cdi.transactional.TransactionalInterceptorNever is deprecated from CDI 1.1!
+2018-06-07 10:17:31,210 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-5) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.arjuna.ats.jta.cdi.transactional.TransactionalInterceptorNotSupported is deprecated from CDI 1.1!
+2018-06-07 10:17:31,212 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-5) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.arjuna.ats.jta.cdi.transactional.TransactionalInterceptorRequired is deprecated from CDI 1.1!
+2018-06-07 10:17:31,215 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-5) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.arjuna.ats.jta.cdi.transactional.TransactionalInterceptorRequiresNew is deprecated from CDI 1.1!
+2018-06-07 10:17:31,217 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-5) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.arjuna.ats.jta.cdi.transactional.TransactionalInterceptorSupports is deprecated from CDI 1.1!
+2018-06-07 10:17:31,219 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-5) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.sun.faces.flow.FlowDiscoveryCDIHelper is deprecated from CDI 1.1!
+2018-06-07 10:17:31,462 WARN  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 1) WELD-000167: Class br.com.yuriramalhopinheiro.Repository is annotated with @Dependent but it does not declare an appropriate constructor therefore is not registered as a bean!
+2018-06-07 10:17:31,878 INFO  [org.springframework.data.jpa.repository.cdi.JpaRepositoryExtension] (MSC service thread 1-5) Registering bean for 'br.com.yuriramalhopinheiro.Repository' with qualifiers [@javax.enterprise.inject.Default(), @javax.enterprise.inject.Any()].
+2018-06-07 10:17:32,154 INFO  [org.hibernate.jpa.internal.util.LogHelper] (MSC service thread 1-5) HHH000204: Processing PersistenceUnitInfo [
 	name: jsf-cdi-spring-data
 	...]
-2018-06-06 18:26:28,351 WARN  [org.hibernate.orm.connections.pooling] (MSC service thread 1-8) HHH10001002: Using Hibernate built-in connection pool (not for production use!)
-2018-06-06 18:26:28,351 INFO  [org.hibernate.orm.connections.pooling] (MSC service thread 1-8) HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/spring_data]
-2018-06-06 18:26:28,351 INFO  [org.hibernate.orm.connections.pooling] (MSC service thread 1-8) HHH10001001: Connection properties: {user=root, password=****}
-2018-06-06 18:26:28,351 INFO  [org.hibernate.orm.connections.pooling] (MSC service thread 1-8) HHH10001003: Autocommit mode: false
-2018-06-06 18:26:28,366 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl] (MSC service thread 1-8) HHH000115: Hibernate connection pool size: 20 (min=1)
-2018-06-06 18:26:28,507 ERROR [stderr] (MSC service thread 1-8) Wed Jun 06 18:26:28 BRT 2018 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
-2018-06-06 18:26:28,632 INFO  [org.hibernate.dialect.Dialect] (MSC service thread 1-8) HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-2018-06-06 18:26:28,663 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (MSC service thread 1-8) Envers integration enabled? : true
-2018-06-06 18:26:29,194 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 63) Inicializando Mojarra 2.3.3.SP1 para o contexto '/jsf-cdi-spring-data'
-2018-06-06 18:26:31,959 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 63) Running on PrimeFaces 6.0
-2018-06-06 18:26:31,977 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 63) WFLYUT0021: Registered web context: '/jsf-cdi-spring-data' for server 'default-server'
-2018-06-06 18:26:31,993 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 37) WFLYSRV0010: Deployed "jsf-cdi-spring-data.war" (runtime-name : "jsf-cdi-spring-data.war")
-2018-06-06 18:26:32,134 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
-2018-06-06 18:26:32,149 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
-2018-06-06 18:26:32,149 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
-2018-06-06 18:26:32,149 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 12.0.0.Final (WildFly Core 4.0.0.Final) started in 45561ms - Started 431 of 621 services (314 services are lazy, passive or on-demand)
-2018-06-06 18:28:36,367 INFO  [stdout] (default task-2) Hibernate: 
-2018-06-06 18:28:36,367 INFO  [stdout] (default task-2)     insert 
-2018-06-06 18:28:36,367 INFO  [stdout] (default task-2)     into
-2018-06-06 18:28:36,368 INFO  [stdout] (default task-2)         Produto
-2018-06-06 18:28:36,368 INFO  [stdout] (default task-2)         (nome) 
-2018-06-06 18:28:36,368 INFO  [stdout] (default task-2)     values
-2018-06-06 18:28:36,368 INFO  [stdout] (default task-2)         (?)
-2018-06-06 18:28:36,495 INFO  [stdout] (default task-2) Produto adicionado com sucesso!
-2018-06-06 18:28:36,526 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (default task-2) HHH000397: Using ASTQueryTranslatorFactory
-2018-06-06 18:28:36,838 INFO  [stdout] (default task-2) Hibernate: 
-2018-06-06 18:28:36,838 INFO  [stdout] (default task-2)     select
-2018-06-06 18:28:36,838 INFO  [stdout] (default task-2)         produto0_.id as id1_0_,
-2018-06-06 18:28:36,838 INFO  [stdout] (default task-2)         produto0_.nome as nome2_0_ 
-2018-06-06 18:28:36,838 INFO  [stdout] (default task-2)     from
-2018-06-06 18:28:36,838 INFO  [stdout] (default task-2)         Produto produto0_
-2018-06-06 18:28:36,854 INFO  [stdout] (default task-2) Bicicleta Aro 21
-2018-06-06 18:28:36,854 INFO  [stdout] (default task-2) Bolsa HP
-2018-06-06 18:28:36,854 INFO  [stdout] (default task-2) Camisa de manga
-2018-06-06 18:28:36,854 INFO  [stdout] (default task-2) Bacardi ouro
-2018-06-06 18:28:36,854 INFO  [stdout] (default task-2) Cadeira de madeira
-2018-06-06 18:28:36,854 INFO  [stdout] (default task-2) Capacete
-2018-06-06 18:28:36,854 INFO  [stdout] (default task-2) Celular
-2018-06-06 18:28:36,854 INFO  [stdout] (default task-2) LÃ¢mpada
-2018-06-06 18:28:36,854 INFO  [stdout] (default task-2) CARRO
-2018-06-06 18:28:36,854 INFO  [stdout] (default task-2) TV LG
-2018-06-06 18:28:36,854 INFO  [stdout] (default task-2) Moto
-2018-06-06 18:28:36,854 INFO  [stdout] (default task-2) Ferro de passar
-2018-06-06 18:28:36,854 INFO  [stdout] (default task-2) Coelho velho
-2018-06-06 18:28:36,854 INFO  [stdout] (default task-2) Coelho jambo
-2018-06-06 18:28:36,854 INFO  [stdout] (default task-2) Mause
-2018-06-06 18:28:36,854 INFO  [stdout] (default task-2) Smart Phone
-2018-06-06 18:28:36,854 INFO  [stdout] (default task-2) Impressora Samsung
-2018-06-06 18:28:36,854 INFO  [stdout] (default task-2) Bolsa
-2018-06-06 18:30:26,049 INFO  [stdout] (default task-1) Hibernate: 
-2018-06-06 18:30:26,049 INFO  [stdout] (default task-1)     insert 
-2018-06-06 18:30:26,049 INFO  [stdout] (default task-1)     into
-2018-06-06 18:30:26,049 INFO  [stdout] (default task-1)         Produto
-2018-06-06 18:30:26,062 INFO  [stdout] (default task-1)         (nome) 
-2018-06-06 18:30:26,062 INFO  [stdout] (default task-1)     values
-2018-06-06 18:30:26,063 INFO  [stdout] (default task-1)         (?)
-2018-06-06 18:30:26,111 INFO  [stdout] (default task-1) Produto adicionado com sucesso!
-2018-06-06 18:30:26,111 INFO  [stdout] (default task-1) Hibernate: 
-2018-06-06 18:30:26,111 INFO  [stdout] (default task-1)     select
-2018-06-06 18:30:26,111 INFO  [stdout] (default task-1)         produto0_.id as id1_0_,
-2018-06-06 18:30:26,111 INFO  [stdout] (default task-1)         produto0_.nome as nome2_0_ 
-2018-06-06 18:30:26,111 INFO  [stdout] (default task-1)     from
-2018-06-06 18:30:26,127 INFO  [stdout] (default task-1)         Produto produto0_
-2018-06-06 18:30:26,127 INFO  [stdout] (default task-1) Bicicleta Aro 21
-2018-06-06 18:30:26,127 INFO  [stdout] (default task-1) Bolsa HP
-2018-06-06 18:30:26,127 INFO  [stdout] (default task-1) Camisa de manga
-2018-06-06 18:30:26,127 INFO  [stdout] (default task-1) Bacardi ouro
-2018-06-06 18:30:26,127 INFO  [stdout] (default task-1) Cadeira de madeira
-2018-06-06 18:30:26,127 INFO  [stdout] (default task-1) Capacete
-2018-06-06 18:30:26,127 INFO  [stdout] (default task-1) Celular
-2018-06-06 18:30:26,127 INFO  [stdout] (default task-1) LÃ¢mpada
-2018-06-06 18:30:26,127 INFO  [stdout] (default task-1) CARRO
-2018-06-06 18:30:26,127 INFO  [stdout] (default task-1) TV LG
-2018-06-06 18:30:26,127 INFO  [stdout] (default task-1) Moto
-2018-06-06 18:30:26,127 INFO  [stdout] (default task-1) Ferro de passar
-2018-06-06 18:30:26,127 INFO  [stdout] (default task-1) Coelho velho
-2018-06-06 18:30:26,127 INFO  [stdout] (default task-1) Coelho jambo
-2018-06-06 18:30:26,127 INFO  [stdout] (default task-1) Mause
-2018-06-06 18:30:26,127 INFO  [stdout] (default task-1) Smart Phone
-2018-06-06 18:30:26,127 INFO  [stdout] (default task-1) Impressora Samsung
-2018-06-06 18:30:26,142 INFO  [stdout] (default task-1) Bolsa
-2018-06-06 18:30:26,142 INFO  [stdout] (default task-1) Cama
+2018-06-07 10:17:32,171 WARN  [org.hibernate.orm.connections.pooling] (MSC service thread 1-5) HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-06-07 10:17:32,172 INFO  [org.hibernate.orm.connections.pooling] (MSC service thread 1-5) HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/spring_data]
+2018-06-07 10:17:32,172 INFO  [org.hibernate.orm.connections.pooling] (MSC service thread 1-5) HHH10001001: Connection properties: {user=root, password=****}
+2018-06-07 10:17:32,172 INFO  [org.hibernate.orm.connections.pooling] (MSC service thread 1-5) HHH10001003: Autocommit mode: false
+2018-06-07 10:17:32,175 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl] (MSC service thread 1-5) HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-06-07 10:17:32,342 ERROR [stderr] (MSC service thread 1-5) Thu Jun 07 10:17:32 BRT 2018 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2018-06-07 10:17:32,477 INFO  [org.hibernate.dialect.Dialect] (MSC service thread 1-5) HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-06-07 10:17:32,509 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (MSC service thread 1-5) Envers integration enabled? : true
+2018-06-07 10:17:33,081 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 69) Inicializando Mojarra 2.3.3.SP1 para o contexto ''
+2018-06-07 10:17:35,330 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 69) Running on PrimeFaces 6.0
+2018-06-07 10:17:35,363 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 69) WFLYUT0021: Registered web context: '/' for server 'default-server'
+2018-06-07 10:17:35,393 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 37) WFLYSRV0010: Deployed "ROOT.war" (runtime-name : "ROOT.war")
+2018-06-07 10:17:35,542 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2018-06-07 10:17:35,549 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2018-06-07 10:17:35,549 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2018-06-07 10:17:35,551 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 12.0.0.Final (WildFly Core 4.0.0.Final) started in 29847ms - Started 431 of 621 services (314 services are lazy, passive or on-demand)
