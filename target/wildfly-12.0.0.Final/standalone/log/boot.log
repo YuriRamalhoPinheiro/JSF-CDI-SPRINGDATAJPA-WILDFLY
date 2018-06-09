@@ -1,8 +1,8 @@
-2018-06-07 10:17:06,219 INFO  [org.jboss.modules] (main) JBoss Modules version 1.7.0.Final
-2018-06-07 10:17:06,886 INFO  [org.jboss.msc] (main) JBoss MSC version 1.3.2.Final
-2018-06-07 10:17:06,896 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.1.Final
-2018-06-07 10:17:07,053 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Full 12.0.0.Final (WildFly Core 4.0.0.Final) starting
-2018-06-07 10:17:07,055 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+2018-06-09 08:59:01,889 INFO  [org.jboss.modules] (main) JBoss Modules version 1.7.0.Final
+2018-06-09 08:59:02,804 INFO  [org.jboss.msc] (main) JBoss MSC version 1.3.2.Final
+2018-06-09 08:59:02,819 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.1.Final
+2018-06-09 08:59:03,054 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Full 12.0.0.Final (WildFly Core 4.0.0.Final) starting
+2018-06-09 08:59:03,065 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
 	awt.toolkit = sun.awt.windows.WToolkit
 	file.encoding = UTF-8
 	file.encoding.pkg = sun.io
@@ -16,7 +16,7 @@
 	java.ext.dirs = C:\Program Files\Java\jdk1.8.0_152\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
 	java.home = C:\Program Files\Java\jdk1.8.0_152\jre
 	java.io.tmpdir = C:\Users\Yuri\AppData\Local\Temp\
-	java.library.path = C:\Program Files\Java\jdk1.8.0_152\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;native;C:/Program Files (x86)/Java/jre1.8.0_161/bin/client;C:/Program Files (x86)/Java/jre1.8.0_161/bin;C:/Program Files (x86)/Java/jre1.8.0_161/lib/i386;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk-9.0.1\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\WINDOWS\System32\OpenSSH\;C:\Users\Yuri\AppData\Local\Microsoft\WindowsApps;C:\Users\Yuri\AppData\Local\GitHubDesktop\bin;C:\Users\Yuri\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Heroku\bin;F:\Programas\Desenvolvimento de software\IDE\sts-bundle\sts-3.9.4.RELEASE;;.
+	java.library.path = C:\Program Files\Java\jdk1.8.0_152\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;native;C:/Program Files (x86)/Java/jre1.8.0_161/bin/client;C:/Program Files (x86)/Java/jre1.8.0_161/bin;C:/Program Files (x86)/Java/jre1.8.0_161/lib/i386;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk-9.0.1\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\WINDOWS\System32\OpenSSH\;C:\Users\Yuri\AppData\Local\Microsoft\WindowsApps;C:\Users\Yuri\AppData\Local\GitHubDesktop\bin;C:\Users\Yuri\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Heroku\bin;F:\Programas\Desenvolvimento de software\Controle de versÆo\apache-maven-3.5.3\bin;;F:\Programas\Desenvolvimento de software\IDE\sts-bundle\sts-3.9.4.RELEASE;;.
 	java.net.preferIPv4Stack = true
 	java.runtime.name = Java(TM) SE Runtime Environment
 	java.runtime.version = 1.8.0_152-b16
@@ -96,11 +96,11 @@
 	user.script = 
 	user.timezone = America/Sao_Paulo
 	user.variant = 
-2018-06-07 10:17:07,057 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -Dprogram.name=JBossTools: WildFly 12 (2) -Xms64m -Xmx512m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=F:\Projetos\Git\spring tool suit\jsf-cdi-spring-data\target\wildfly-12.0.0.Final\standalone\log\boot.log -Dlogging.configuration=file:F:\Projetos\Git\spring tool suit\jsf-cdi-spring-data\target\wildfly-12.0.0.Final\standalone\configuration\logging.properties -Djboss.home.dir=F:\Projetos\Git\spring tool suit\jsf-cdi-spring-data\target\wildfly-12.0.0.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=UTF-8 
-2018-06-07 10:17:09,095 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
-2018-06-07 10:17:09,130 INFO  [org.wildfly.security] (ServerService Thread Pool -- 28) ELY00001: WildFly Elytron version 1.2.2.Final
-2018-06-07 10:17:09,146 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 5) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
-2018-06-07 10:17:12,948 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 17) WFLYDR0001: Content added at location F:\Projetos\Git\spring tool suit\jsf-cdi-spring-data\target\wildfly-12.0.0.Final\standalone\data\content\e9\4127a3a3392782fa3eb027d016dd1a40b448c9\content
-2018-06-07 10:17:12,973 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
-2018-06-07 10:17:13,020 INFO  [org.xnio] (MSC service thread 1-7) XNIO version 3.6.2.Final
-2018-06-07 10:17:13,020 INFO  [org.xnio.nio] (MSC service thread 1-7) XNIO NIO Implementation Version 3.6.2.Final
+2018-06-09 08:59:03,067 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -Dprogram.name=JBossTools: WildFly 12 (2) -Xms64m -Xmx512m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=F:\Projetos\Git\spring tool suit\jsf-cdi-spring-data\target\wildfly-12.0.0.Final\standalone\log\boot.log -Dlogging.configuration=file:F:\Projetos\Git\spring tool suit\jsf-cdi-spring-data\target\wildfly-12.0.0.Final\standalone\configuration\logging.properties -Djboss.home.dir=F:\Projetos\Git\spring tool suit\jsf-cdi-spring-data\target\wildfly-12.0.0.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=UTF-8 
+2018-06-09 08:59:05,754 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2018-06-09 08:59:05,816 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 4) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2018-06-09 08:59:05,831 INFO  [org.wildfly.security] (ServerService Thread Pool -- 3) ELY00001: WildFly Elytron version 1.2.2.Final
+2018-06-09 08:59:09,175 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 25) WFLYDR0001: Content added at location F:\Projetos\Git\spring tool suit\jsf-cdi-spring-data\target\wildfly-12.0.0.Final\standalone\data\content\fe\b06c7b455c88f5baf510daf3bdeae92e104b99\content
+2018-06-09 08:59:09,207 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2018-06-09 08:59:09,239 INFO  [org.xnio] (MSC service thread 1-3) XNIO version 3.6.2.Final
+2018-06-09 08:59:09,254 INFO  [org.xnio.nio] (MSC service thread 1-3) XNIO NIO Implementation Version 3.6.2.Final
